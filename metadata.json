@@ -1,0 +1,6 @@
+{
+  "name": "Semester SGPA Calculator",
+  "description": "A web-based tool for university students to calculate their Semester Grade Point Average (SGPA) and corresponding percentage. It features a structured approach to grade calculation, supporting theory and practical components.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

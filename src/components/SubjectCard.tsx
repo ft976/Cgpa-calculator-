@@ -55,7 +55,7 @@ export function SubjectCard({ subject, index, updateSubject, removeSubject }: Su
           
           <button 
             onClick={() => removeSubject(subject.id)}
-            className="ml-2 p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-md transition-colors sm:opacity-50 sm:hover:opacity-100"
+            className="ml-2 p-1.5 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-md transition-colors"
             title="Remove subject"
           >
             <Trash2 className="w-4 h-4" />

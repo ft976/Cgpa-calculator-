@@ -9,7 +9,7 @@ interface ResultsBoardProps {
 
 export function ResultsBoard({ semResult, cgpaResult, activeSemName }: ResultsBoardProps) {
   return (
-    <div className="sticky bottom-0 w-full mt-auto bg-gray-900 border-t border-gray-800 p-4 pb-6 sm:pb-4 shadow-[0_-8px_30px_rgb(0,0,0,0.12)] z-40">
+    <div className="w-full mt-auto bg-gray-900 border-t border-gray-800 p-4 pb-6 sm:pb-4 z-40 relative">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         
         {/* Semester Stats */}

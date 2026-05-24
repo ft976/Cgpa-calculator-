@@ -1,4 +1,4 @@
-import { X, Calculator, FlaskConical, Book } from 'lucide-react';
+import { Trash2, Calculator, FlaskConical, Book } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Subject } from '../types';
 import { getSubjectScore, getGradePoint, getGradeLetter } from '../utils/gradeCalculations';
@@ -55,10 +55,10 @@ export function SubjectCard({ subject, index, updateSubject, removeSubject }: Su
           
           <button 
             onClick={() => removeSubject(subject.id)}
-            className="ml-2 p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-md transition-colors"
+            className="ml-2 p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-md transition-colors sm:opacity-50 sm:hover:opacity-100"
             title="Remove subject"
           >
-            <X className="w-4 h-4" />
+            <Trash2 className="w-4 h-4" />
           </button>
         </div>
       </div>
